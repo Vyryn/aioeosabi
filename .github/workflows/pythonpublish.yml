@@ -4,8 +4,7 @@
 name: Upload Python Package
 
 on:
-  push:
-    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   deploy:
